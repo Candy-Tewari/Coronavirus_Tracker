@@ -1,0 +1,1814 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_globe"
+    android:background="@color/dashBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/index"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="State/UT"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_weight="4"
+            android:layout_margin="2dp"
+            android:background="@color/creamish"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="A"
+            android:textSize="20dp"
+            android:textColor="@color/blue"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:background="@color/creamish"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="D"
+            android:textSize="20dp"
+            android:textColor="@color/red"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:background="@color/creamish"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="D"
+            android:textSize="20dp"
+            android:textColor="@color/green"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:background="@color/creamish"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/index"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Andaman and Nicobar Islands"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i1"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i2"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i3"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Andhra Pradesh"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i4"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i5"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i6"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Arunachal Pradesh"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i7"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i8"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i9"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Assam"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i10"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i11"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i12"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Bihar"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i13"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i14"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i15"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Chandigarh"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i16"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i17"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i18"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Chhattisgarh"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i19"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i20"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i21"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Delhi"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i22"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i23"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i24"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Goa"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i25"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i26"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i27"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Gujarat"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i28"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i29"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i30"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Haryana"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i31"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i32"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i33"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Himachal Pradesh"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i34"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i35"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i36"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Jammu and Kashmir"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i37"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i38"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i39"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Jharkhand"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i40"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i41"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i42"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Karnataka"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i43"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i44"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i45"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Kerala"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i46"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i47"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i48"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Ladakh"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i49"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i50"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i51"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Madhya Pradesh"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i52"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i53"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i54"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Maharashtra"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i55"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i56"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i57"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Manipur"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i58"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i59"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i60"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Meghalaya"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i61"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i62"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i63"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Mizoram"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i64"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i65"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i66"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Odisha"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i67"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i68"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i69"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Puducherry"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i70"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i71"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i72"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Punjab"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i73"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i74"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i75"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Rajasthan"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i76"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i77"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i78"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Tamil Nadu"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i79"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i80"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i81"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Telengana"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i82"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i83"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i84"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Tripura"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i85"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i86"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i87"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Uttarakhand"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i88"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i89"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i90"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Uttar Pradesh"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i91"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i92"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i93"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="West Bengal"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="4"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i94"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i95"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/i96"
+                        android:text="0"
+                        android:textSize="15dp"
+                        android:textColor="#000"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:background="@color/creamish"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"/>
+
+            </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

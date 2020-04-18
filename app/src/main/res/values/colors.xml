@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="splashScreenBackground">#F2202C46</color>
+    <color name="textColor">#ec5463</color>
+    <color name="dashBackground">#EBFBFBFB</color>
+    <color name="greyBlack">#A33A3838</color>
+    <color name="red">#D81515</color>
+    <color name="green">#4CAF50</color>
+    <color name="blue">#3F51B5</color>
+    <color name="cream">#6AFFFFFF</color>
+    <color name="bottom_color">#FFEB3B</color>
+    <color name="blue_dark">#293DAA</color>
+    <color name="blue_light">#CD3F51B5</color>
+    <color name="creamish">#9AC6C6C6</color>
+
+    <color name="green_medical_start">#9be89a</color>
+    <color name="green_medical_end">#cff87e</color>
+
+    <color name="blue_home_start">#a5c9fd</color>
+    <color name="blue_home_end">#bde6fa</color>
+
+    <color name = "badami_start">#f8cd67</color>
+    <color name = "badami_end">#fca783</color>
+
+    <color name = "pink_start">#ff8583</color>
+    <color name = "pink_end">#ff9e99</color>
+
+</resources>

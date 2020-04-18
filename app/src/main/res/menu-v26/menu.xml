@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+        android:title=""
+        android:icon="@drawable/virus"/>
+
+    <item android:id="@+id/health"
+        android:title=""
+        android:icon="@drawable/health"/>
+
+    <item android:id="@+id/global"
+        android:title=""
+        android:icon="@drawable/global" />
+
+</menu>
